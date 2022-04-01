@@ -2389,8 +2389,8 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 			width: 100%;
 		}
-
-			.image.fit img {
+		
+		.image.fit img {
 				width: 100%;
 			}
 
@@ -2606,7 +2606,7 @@ input, select, textarea {
 				width: 8em;
 			}
 
-				ul.major-icons li .icon:before {
+				ul.major-icons li .icon:before, .fa-brands {
 					-moz-transform: rotate(-45deg);
 					-webkit-transform: rotate(-45deg);
 					-ms-transform: rotate(-45deg);
@@ -2614,6 +2614,11 @@ input, select, textarea {
 					display: inline-block;
 					line-height: inherit;
 				}
+.fa-brands {
+	font-size: 3rem;
+	margin: auto;
+	color: rgb(255, 255, 255);
+}
 
 /* Table */
 
@@ -2917,7 +2922,7 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #ffcaca 5%, #ff9f9f 30%, #641f1f);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
